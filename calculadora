@@ -1,0 +1,158 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNNC5Nci90EkNmiFFsafe4T",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/VictorAntunes2/VictorAntunes2/blob/main/calculadora\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "gArjAMZ1jTWl",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "c13e33f3-f778-41ed-974b-687976086772"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá, esta é a sua calculadora\n"
+          ]
+        }
+      ],
+      "source": [
+        "print('Olá, esta é a sua calculadora')"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1=float(input('Insira o primeiro número '))"
+      ],
+      "metadata": {
+        "id": "WCg0ZlALkrZo",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "d4407f6d-bc4a-4bfd-d37b-95c4a2749006"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Insira o primeiro número 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num2=float(input('Insira o segundo número '))"
+      ],
+      "metadata": {
+        "id": "zJifmfd6k7BQ",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "62ddda4b-a424-4e65-eb07-750475aa2f18"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Insira o segundo número 9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "operação=input('Qual operação deseja usar? (+, -, /, *)'  )"
+      ],
+      "metadata": {
+        "id": "ixEVGmAVjWrk",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "3c551427-de31-4d29-b28d-a1369151ff7a"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Qual operação deseja usar? (+, -, /, *)+\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if operação == '+':\n",
+        "  resultado = num1+num2\n",
+        "  print(\"resultado:\", resultado)\n",
+        "elif operação == \"-\":\n",
+        "  resultado=num1 - num2\n",
+        "  print('resultado:', resultado)  \n",
+        "elif operação == \"/\":\n",
+        "  resultado = num1 / num2\n",
+        "  print('resultao:', resultado)\n",
+        "elif operação == \"*\":\n",
+        "  resultado=num1 * num2\n",
+        "  print('resultado:', resultado)\n",
+        "else:\n",
+        "  print('Operação invalida :( )')"
+      ],
+      "metadata": {
+        "id": "DWLJqxRekIw5",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "fa0cc5e9-0107-4bb7-c5f0-f9ac16e13456"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "resultado: 14.0\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
