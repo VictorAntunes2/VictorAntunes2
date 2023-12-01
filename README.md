@@ -1,15 +1,15 @@
 <h1 align="center">oi👋, eu sou Victor Antunes</h1><h3 align="center">
 Sou apaixonado por desenvolvimento de sistemas e análise de dados no mundo digital</h3>
 
-- Atualmente estou aprendendo **Python,Machine learnig,SQL**- 
-- Me pergunte sobre **excel,power BI, python,SQL**- 
+- Atualmente estou aprendendo **SQL, Power BI**- 
+- Me pergunte sobre **excel, power BI, SQL**- 
 - Você me encontra através do email **victorantunes17@outlook.com**
 
 
 
 
 
-- Python,Desenvolvimento back-end,Tecnologia da Informação,SQL,Power BI,Banco de dados,Business intelliggence
+- Desenvolvimento back-end,Tecnologia da Informação,SQL,Power BI,Banco de dados,Business intelliggence
 
 -Me encontre também em 
 "https://linkedin.com/in/https://www.linkedin.com/in/victor-antunes-8688371a2/"
